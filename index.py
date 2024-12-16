@@ -19,8 +19,4 @@ if __name__ == '__main__':
 
     # run() method of Flask class runs the application 
     # on the local development server. 
-    app.run(debug=True, port=3001)
-
-
-# git remote add origin https://github.com/jatin-suthar-here/Test-flask-to-render.git
-# git remote add origin https://github.com/jatin-suthar-here/Test-flask-to-render.git
+    app.run(debug=True, host='0.0.0.0', port=3001)
