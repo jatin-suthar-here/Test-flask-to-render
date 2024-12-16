@@ -15,16 +15,15 @@ def hello_world():
     return 'Hello World! Jatin, Its working.'
 
 @app.route('/a')
-# ‘/’ URL is bound with hello_world() function.
-def hello_world():
+def hello_world_a():
     return 'Its working for A'
+
 @app.route('/b')
-# ‘/’ URL is bound with hello_world() function.
-def hello_world():
+def hello_world_b():
     return 'Its working for B'
+
 @app.route('/c')
-# ‘/’ URL is bound with hello_world() function.
-def hello_world():
+def hello_world_c():
     return 'Its working for C'
 
 # main driver function
