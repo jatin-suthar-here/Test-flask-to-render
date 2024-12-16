@@ -14,6 +14,19 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello World! Jatin, Its working.'
 
+@app.route('/a')
+# ‘/’ URL is bound with hello_world() function.
+def hello_world():
+    return 'Its working for A'
+@app.route('/b')
+# ‘/’ URL is bound with hello_world() function.
+def hello_world():
+    return 'Its working for B'
+@app.route('/c')
+# ‘/’ URL is bound with hello_world() function.
+def hello_world():
+    return 'Its working for C'
+
 # main driver function
 if __name__ == '__main__':
 
